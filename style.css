@@ -5,34 +5,40 @@
 
 /* New social cards testing */
 
-.sc p .plogo {
-    position: absolute;
-    top: 45%;
-    right: 10%;
+.card-header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
 }
 
-.sc h1 .h1logo {
-    position: absolute;
-    top: 14%;
-    right: 58%;
+.h1logo {
+    margin-left: 10px;
+}
+
+.plogo {
+    margin-left: 10px;
+}
+
+.card-content {
+    display: flex;
 }
 
 .sc {
     background-color: #F3F3F3;
     border-radius: 5px;
     padding: 10px 30px 20px 30px;
-    width: 300px;
 }
 
 .sc h1 {
     font-size: 20px;
     font-weight: 700;
     color: #000000;
-    margin-top: 0;
+    margin: 0;
 }
 
 .sc p {
-    font-size: 15px;
+    font-size: 1vw;
     font-weight: 400;
     color: #1D1D1F;
 }
@@ -269,10 +275,9 @@ footer .section-intro {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "instagram github mail";
-    align-items: center;
-    justify-items: start;
+    /* align-items: center;
+    justify-items: start; */
     margin-bottom: 10%;
-    width: 100%;
     grid-gap: 50px;
   }
   
