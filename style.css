@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Sarabun:400,700&display=swap');
 *{font-family: 'Sarabun', sans-serif;}
 
+
+
+/* New social cards testing */
+
+.sc p .plogo {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.sc h1 .h1logo {
+    position: absolute;
+    top: 14%;
+    right: 58%;
+}
+
+.sc {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    padding: 10px 30px 20px 30px;
+    width: 300px;
+}
+
+.sc h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 0;
+}
+
+.sc p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1D1D1F;
+}
+
+
+
+
+
+
+
+
 .i4things {
     color: #3F83FE;
     font-weight: 700;
@@ -229,7 +272,8 @@ footer .section-intro {
     align-items: center;
     justify-items: start;
     margin-bottom: 10%;
-    width: 80%;
+    width: 100%;
+    grid-gap: 50px;
   }
   
   .instagram { grid-area: instagram; }
